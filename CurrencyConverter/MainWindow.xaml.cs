@@ -1,5 +1,8 @@
-﻿using System;
+﻿using CurrencyConverter.Context;
+using CurrencyConverter.Models;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Text;
@@ -29,6 +32,12 @@ namespace CurrencyConverter
             BindCurrency();
         }
 
+        //!!!
+        public void MyConnection()
+        {
+            String Connection = ConfigurationManager.ConnectionStrings["CurrencyDbContext"].ConnectionString;
+        }
+
         private void BindCurrency()
         {
             DataTable dtCurrency = new DataTable();
@@ -52,6 +61,8 @@ namespace CurrencyConverter
             cmbToCurrency.DisplayMemberPath = "Text";
             cmbToCurrency.SelectedValuePath = "Values";
             cmbToCurrency.SelectedIndex = 0;//--Select--
+
+
         }
 
         private void Convert_Click(object sender, RoutedEventArgs e)
@@ -98,11 +109,11 @@ namespace CurrencyConverter
         private void ClearControls()
         {
             txtCurrency.Text = string.Empty;
-            if(cmbFromCurrency.Items.Count > 0)
+            if (cmbFromCurrency.Items.Count > 0)
             {
                 cmbFromCurrency.SelectedIndex = 0;
             }
-            if(cmbToCurrency.Items.Count > 0)
+            if (cmbToCurrency.Items.Count > 0)
             {
                 cmbToCurrency.SelectedIndex = 0;
             }
@@ -128,7 +139,39 @@ namespace CurrencyConverter
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                if (txtAmount.Text == null || txtAmount.Text == "")
+                {
+                    MessageBox.Show("Please enter amount", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                    txtAmount.Focus();
+                    return;
+                }
+                else if (txtCurrencyName.Text == null || txtCurrencyName.Text == "")
+                {
+                    MessageBox.Show("Please enter currency amount", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                    txtCurrencyName.Focus();
+                    return;
+                }
+                else
+                {
+                    //insert into Database
+                    using(CurrencyDbContext currencyDbContext = new CurrencyDbContext())
+                    {
+                        CurrencyModel currencyModel = new CurrencyModel();
 
+                        currencyModel.Amount = int.Parse(txtAmount.Text);
+                        currencyModel.CurrencyName = txtCurrencyName.Text;
+
+                        currencyDbContext.CurrencyModels.Add(currencyModel);
+                        currencyDbContext.SaveChanges();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)

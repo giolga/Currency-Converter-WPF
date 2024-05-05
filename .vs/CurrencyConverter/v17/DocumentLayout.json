@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|c:\\users\\giolga\\desktop\\myprojects\\currencyconverter\\currencyconverter\\migrations\\202405031636405_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\migrations\\202405031636405_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|c:\\users\\giolga\\desktop\\myprojects\\currencyconverter\\currencyconverter\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|c:\\users\\giolga\\desktop\\myprojects\\currencyconverter\\currencyconverter\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\currencyconverter\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|c:\\users\\giolga\\desktop\\myprojects\\currencyconverter\\currencyconverter\\models\\currencymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\models\\currencymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\currencyconverter\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\currencyconverter\\models\\currencymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\models\\currencymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|c:\\users\\giolga\\desktop\\myprojects\\currencyconverter\\currencyconverter\\context\\currencydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22E6332C-B652-4801-A328-E1BEB13077A3}|CurrencyConverter\\CurrencyConverter.csproj|solutionrelative:currencyconverter\\context\\currencydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,46 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "202405031636405_init1.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Migrations\\202405031636405_init1.cs",
-              "RelativeDocumentMoniker": "CurrencyConverter\\Migrations\\202405031636405_init1.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Migrations\\202405031636405_init1.cs",
-              "RelativeToolTip": "CurrencyConverter\\Migrations\\202405031636405_init1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T16:36:54.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "CurrencyConverter\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "CurrencyConverter\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T16:36:23.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CurrencyModel.cs",
               "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Models\\CurrencyModel.cs",
               "RelativeDocumentMoniker": "CurrencyConverter\\Models\\CurrencyModel.cs",
               "ToolTip": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Models\\CurrencyModel.cs",
               "RelativeToolTip": "CurrencyConverter\\Models\\CurrencyModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T16:30:06.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "CurrencyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Context\\CurrencyDbContext.cs",
+              "RelativeDocumentMoniker": "CurrencyConverter\\Context\\CurrencyDbContext.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\Context\\CurrencyDbContext.cs",
+              "RelativeToolTip": "CurrencyConverter\\Context\\CurrencyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:46:01.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CurrencyConverter\\MainWindow.xaml",
@@ -93,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CurrencyConverter\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\GioLGA\\Desktop\\MyProjects\\CurrencyConverter\\CurrencyConverter\\MainWindow.xaml.cs",
               "RelativeToolTip": "CurrencyConverter\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAqwIMAAAAJAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAlwKIAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T08:26:25.435Z",
               "EditorCaption": ""
